@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+}
+
+.nav {
+    width: 100vw;
+    height: 10vh;
+    background-color: red;
+}
+
+a {
+    font-size: 1.3em;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: wheat;
+}
+
+h1 {
+    padding: 1em;
+    size: 3rem;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+
+    justify-content: center;
+
+
+
+}
+
+.card {
+    background-color: #9EDE73;
+    display: inline-block;
+    margin: 2em 3em;
+    border-radius: 10px;
+    padding: 1em;
+
+
+}
+
+.card img {
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.card h2 {
+    padding: .7em;
+}
