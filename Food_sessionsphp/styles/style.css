@@ -64,3 +64,15 @@ form {
     width: 30vw;
     margin: 0 auto;
 }
+
+.main {
+    padding: 1em;
+    width: 30vw;
+    margin: 0 auto;
+    background-color: #9EDE73;
+    border-radius: 10px;
+}
+
+.main h2 {
+    padding: 1em;
+}

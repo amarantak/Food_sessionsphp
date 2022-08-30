@@ -16,11 +16,13 @@ session_start();
 
 <body>
     <h1>Review your order</h1>
-    <?php
-    echo "Burger: " . $_SESSION['burger'] . "Drink: " . $_SESSION['drink'] . "Side: " . $_SESSION['side'] . "Dessert: " . $_SESSION['dessert'];
+    <br><br>
+    <div class="main">
+        <?php
+        echo "<h2>" . "Burger: " . $_SESSION['burger'] . "<br>" . "Drink: " . $_SESSION['drink'] . "<br>" . "Side: " . $_SESSION['side'] . "<br>" . "Dessert: " . $_SESSION['dessert'] . "</h2>";
 
-    ?>
-
+        ?>
+    </div>
 
 
 

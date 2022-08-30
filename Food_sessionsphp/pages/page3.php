@@ -45,9 +45,9 @@ session_start();
 
     <form action="../backpage.php" method="post">
         <select name="sides">
-            <option value="side1">Chips</option>
-            <option value="side2">Salad</option>
-            <option value="side3">Sauce</option>
+            <option value="Chips">Chips</option>
+            <option value="Salad">Salad</option>
+            <option value="Sauce">Sauce</option>
         </select>
         <button type="submit" name="sides_b">Submit</button>
     </form>
