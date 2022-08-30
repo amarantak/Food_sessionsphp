@@ -43,7 +43,7 @@ session_start();
         </div>
     </div>
 
-    <form action="backpage.php" method="post">
+    <form action="../backpage.php" method="post">
         <select name="desserts">
             <option value="dessert1">Ice cream</option>
             <option value="dessert2">Brownie</option>
