@@ -1,11 +1,6 @@
 <?php
 session_start();
-$_SESSION['itemType'] = 'Burger';
-$_SESSION['itemName'] = 'Cheeseburger';
 print_r($_SESSION);
-
-include_once('functions/functions.php');
-$page = 'index';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,18 +14,13 @@ $page = 'index';
 </head>
 
 <body>
-    <div class="nav">
-        <?php
-        navigation($page);
-        ?>
-    </div>
     <h1>Choose your favourite burger</h1>
     <div class="cards-container">
         <div class="card">
             <div class="image">
                 <img src="imgs/burger.jpg" alt="">
             </div>
-            <a href="">
+            <a href="#">
                 <h2>Cheeseburger</h2>
             </a>
         </div>
@@ -38,7 +28,7 @@ $page = 'index';
             <div class="image">
                 <img src="imgs/burger.jpg" alt="">
             </div>
-            <a href="">
+            <a href="#">
                 <h2>Meatlovers</h2>
             </a>
         </div>
@@ -46,12 +36,20 @@ $page = 'index';
             <div class="image">
                 <img src="imgs/burger.jpg" alt="">
             </div>
-            <a href="">
+            <a href="#">
                 <h2>Veggie</h2>
             </a>
         </div>
     </div>
 
+    <form action="backpage.php" method="post">
+        <select name="burgers">
+            <option value="burger1">Cheeseburger</option>
+            <option value="burger2">Meatlovers</option>
+            <option value="burger3">Veggie</option>
+        </select>
+        <button type="submit" name="burgers_b">Submit</button>
+    </form>
 
 
 
