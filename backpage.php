@@ -1,7 +1,6 @@
 <?php
 session_start();
 
-
 if (isset($_POST['burgers_b'])) {
     $_SESSION['burger'] = $_POST['burgers'];
     header('Location: page2.php');
